@@ -7,7 +7,7 @@ import Layout from '@/components/layout/Layout'
 const Signin = () => {
     return (
         <Layout>
-            <div>
+            <div className='w-full'>
                 <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10">
                     <div className="w-full max-w-md">
                         <LoginForm />
