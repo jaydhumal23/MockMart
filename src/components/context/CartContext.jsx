@@ -16,8 +16,18 @@ export const CartProvider = ({ children }) => {
             const localGuestCart = JSON.parse(localStorage.getItem("guest-cart")) || [];
             if (localGuestCart.length > 0) {
                 mergeGuestToCloud(user.uid.localGuestCart)
+            } else {
+                fetchCloudCart(user.uid)
             }
+        } else {
+            //guest: laod from  local storage..
+
+            const localData = JSON.parase(localStorage.getItem("guest-cart")) || [];
+            setItems(localData)
         }
-    }, [])
+    }, [user])
+    const fetchCloudCart = async (uid) => {
+
+    }
 
 }
