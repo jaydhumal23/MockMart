@@ -27,10 +27,13 @@ export function LoginForm({
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card>
-        <CardHeader className="text-center">
-          <CardTitle>Login to your account</CardTitle>
+        <CardHeader className="text-center select-none">
+          <CardTitle className="text-4xl font-bold mb-2 " >Welcome Back</CardTitle>
           <CardDescription>
-            Enter your email below to login to your account
+            Sign in to your MockMart account
+
+
+
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -52,9 +55,9 @@ export function LoginForm({
                 <Input id="password" type="password" required />
               </Field>
               <Field>
-                <Button type="submit">Login</Button>
+                <Button type="submit">Sign in</Button>
                 <Button variant="outline" type="button">
-                  Login with Google
+                  Sign in  with Google
                 </Button>
                 <FieldDescription className="text-center">
                   Don&apos;t have an account? <span className="cursor-pointer select-none text-black" onClick={toSignup}>Sign up</span>

@@ -19,15 +19,17 @@ export function SignupForm({
   ...props
 }) {
   const navigate = useNavigate()
-  const toLogin = () => {
-    navigate("/login");
+  const toSignin = () => {
+    navigate("/signin");
   };
   return (
     <Card {...props}>
-      <CardHeader className="text-center">
-        <CardTitle>Create an account</CardTitle>
+      <CardHeader className="text-center select-none">
+        <CardTitle className="text-4xl font-bold mb-2" >Create an account</CardTitle>
         <CardDescription>
-          Enter your details to create your new account
+          Join MockMart and start shopping
+
+
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -35,7 +37,7 @@ export function SignupForm({
           <FieldGroup>
             <Field>
               <FieldLabel htmlFor="name">Full Name</FieldLabel>
-              <Input id="name" type="text" placeholder="John Doe" required />
+              <Input id="name" type="text" placeholder="Baba Yaga" required />
             </Field>
             <Field>
               <FieldLabel htmlFor="email">Email</FieldLabel>
@@ -56,7 +58,7 @@ export function SignupForm({
                   Sign up with Google
                 </Button>
                 <FieldDescription className="px-6 text-center">
-                  Already have an account? <span className="cursor-pointer select-none text-black" onClick={toLogin}>Login</span>
+                  Already have an account? <span className="cursor-pointer select-none text-black" onClick={toSignin}>Sign in</span>
                 </FieldDescription>
               </Field>
             </FieldGroup>
