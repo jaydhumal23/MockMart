@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
         <nav className='flex  justify-between bg-gray-400/10 w-full m-h-xl p-2 px-6 sticky top-0 backdrop-blur-sm cursor-pointer select-none'>
-            <div className='flex justify-center items-center gap-3 select-none' onClick={toHome} ><img src='public/shopping.png' className='h-8 '></img ><span className='text-xl font-bold'>MockMart</span></div>
+            <div className='flex justify-center items-center gap-3 select-none' onClick={toHome} ><img src='/shopping.png' className='h-8 '></img ><span className='text-xl font-bold'>MockMart</span></div>
             <div className='flex gap-10  justify-center items-center'>
                 <div className='flex gap-6 text-xl text-gray-500 font-semibold justify-center items-center select-none'>
                     <div className=''>All Products</div>
