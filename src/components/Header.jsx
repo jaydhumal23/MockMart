@@ -67,7 +67,7 @@ export default function Header() {
 
                         {/* Search Results Dropdown */}
                         {showSearchResults && searchQuery.length >= 2 && (
-                            <div className="absolute top-full left-0 right-0 mt-2 bg-card rounded-lg shadow-lg border border-border max-h-96 overflow-y-auto z-50 bg-gray-100/90 backdrop-blur-2xl ">
+                            <div className="absolute top-full left-0 right-0 mt-2 bg-card rounded-lg shadow-lg border border-border max-h-96 overflow-y-auto z-50 backdrop-blur-2xl ">
                                 {searchLoading ? (
                                     <div className="p-4 text-center text-muted-foreground">Searching...</div>
                                 ) : searchResults.length > 0 ? (
