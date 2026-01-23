@@ -16,6 +16,7 @@ Mockmart is a modern e-commerce web application that provides a seamless shoppin
 ## Tech Stack
 
 - **Frontend:** React.js
+- **Build Tool:** Vite
 - **Styling:** Tailwind CSS
 - **Components:** shadcn/ui
 - **Authentication:** Firebase Authentication
