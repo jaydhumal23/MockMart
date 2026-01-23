@@ -1,5 +1,3 @@
-### MockMart
-
 # Mockmart
 
 Mockmart is a modern e-commerce web application that provides a seamless shopping experience. It features user authentication, dynamic product listings, and a clean, responsive UI.
