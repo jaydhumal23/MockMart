@@ -29,7 +29,7 @@ Mockmart is a modern e-commerce web application that provides a seamless shoppin
 1.  **Clone the repository**
 
     ```bash
-    git clone [https://github.com/your-username/mockmart.git](https://github.com/jaydhumal23/MockMart.git)
+    git clone https://github.com/jaydhumal23/MockMart.git
     cd mockmart
     ```
 
