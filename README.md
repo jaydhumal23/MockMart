@@ -49,6 +49,7 @@ Mockmart is a modern e-commerce web application that provides a seamless shoppin
     VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
     VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
     VITE_FIREBASE_APP_ID=your_app_id
+    VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
     ```
 
 4.  **Run the development server**
